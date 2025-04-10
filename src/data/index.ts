@@ -1,5 +1,5 @@
 import { v4 as uuidv4 } from "uuid";
-import {IProduct } from "../interfaces";
+import {IFromInput, IProduct } from "../interfaces";
 
 export const productList: IProduct[] = [
   {
@@ -304,29 +304,29 @@ export const productList: IProduct[] = [
   },
 ];
 
-// export const inputData:IFromInput[]=[
-//     {
-//         id:"title",
-//         type:"text",
-//         name:"title",
-//         label:"Title"
-//     },
-//     {
-//         id:"description",
-//         type:"text",
-//         name:"description",
-//         label:"Description"
-//     },
-//     {
-//         id:"imageURl",
-//         type:"text",
-//         name:"imageURL",
-//         label:"ImageURl"
-//     },
-//     {
-//         id:"price",
-//         type:"text",
-//         name:"price",
-//         label:"Price"
-//     },
-// ]
+export const inputData:IFromInput[]=[
+    {
+        id:"title",
+        type:"text",
+        name:"title",
+        label:"Title"
+    },
+    {
+        id:"description",
+        type:"text",
+        name:"description",
+        label:"Description"
+    },
+    {
+        id:"imageURl",
+        type:"text",
+        name:"imageURL",
+        label:"ImageURl"
+    },
+    {
+        id:"price",
+        type:"text",
+        name:"price",
+        label:"Price"
+    },
+]  
