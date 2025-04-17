@@ -13,7 +13,7 @@ export interface IProduct{
 
 export interface IFromInput{
     id:string;
-    name:string;
+    name:"imageURL"|"title"|"description"|"price";
     label:string;
     type:string;
 }

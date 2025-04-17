@@ -53,9 +53,8 @@ const Model=({closeModal,title,isOpen ,children}:IProps)=> {
                                     </Dialog.Title>
                                 )}
 
-                 
 
-                  <div className="mt-4">
+                  <div className="mt-4 text-white">
                   {children}
                   </div>
                 </Dialog.Panel>
